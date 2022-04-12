@@ -4,23 +4,23 @@
 @import './partials/typography';
 
 @media (min-width: 1024px) {
-body{
+body {
 background-color: white;
 }
 }
 
-nav{
+nav {
 height: fit-content;
     background-color: rgba(30, 17, 3, 0.866);
 
-ul{
+ul {
     margin-bottom: 10px;
     padding: 20px;
     
-li{
+li {
     display: inline-block;
     color: white;
-a{
+a {
 text-decoration: none;
 color: white;
 }
@@ -29,19 +29,19 @@ color: white;
 }
 
 
-.container{
+.container {
     *{
        box-sizing: border-box; 
     }
-.content{
+.content {
 float: left;
 width: 50%;
 background-color: white;
 margin-bottom: 40px;
-p{
+p {
 color: black; 
 }
-a{
+a {
     margin-bottom: 25px;
 }
 button{
@@ -50,7 +50,7 @@ color: $font-color;
 }
 
 }
-.content1{
+.content1 {
 background-color: white;
 float: right;
 width: 50%;
@@ -59,8 +59,8 @@ margin-bottom: 40px;
 }
 
 
-header{
-.brand{
+header {
+.brand {
 float: left;
 width: 15%;
 color: white;
@@ -75,13 +75,13 @@ width: 8%;
 }
 }
 
-.container{
-    h1{
+.container {
+    h1 {
 text-align: center;
 color: rgb(232, 156, 15);
 font-family: $primary-font;
     }
-    h3{
+    h3 {
 text-align: center;
     }
     p{
@@ -89,13 +89,13 @@ text-align: center;
     }   
 }
 
-.order_cta{
-background-color: red;
-color: white;
+.order_cta {
+background-color: $primary-color;
+color: $font-color;
 text-decoration: underline;
 }
 
-.survey_cta{
+.survey_cta {
 background-color: $primary-color;
 color: $font-color;
 text-decoration: underline;
