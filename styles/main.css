@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Marck+Script&family=Montserrat:wght@300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -352,7 +352,7 @@ nav {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: rgba(30, 17, 3, 0.866);
+  background-color: #414141;
 }
 
 nav ul {
@@ -389,7 +389,7 @@ nav ul li a {
 }
 
 .container .content button {
-  background-color: #eb7f1a;
+  background-color: #575757;
   color: black;
 }
 
@@ -417,7 +417,7 @@ header li {
 
 .container h1 {
   text-align: center;
-  color: #eb7f1a;
+  color: #575757;
   font-family: "Marck Script", cursive;
 }
 
@@ -431,14 +431,14 @@ header li {
 }
 
 .order_cta {
-  background-color: #eb7f1a;
+  background-color: #575757;
   color: black;
   text-decoration: underline;
   border-radius: 5px;
 }
 
 .survey_cta {
-  background-color: #27a108;
+  background-color: #DB8D33;
   color: black;
   text-decoration: underline;
   border-radius: 25px;

@@ -91,9 +91,9 @@ text-align: center;
 }
 
 .order_cta {
-@include underline-button(5px, $primary-color);
+@include underline-button(5px, $button-color);
 }
 
 .survey_cta {
-@include underline-button(25px, $secondary-color);
+@include underline-button(25px, $other-color);
 }
