@@ -2,6 +2,8 @@
 @import './vendor/normalize';
 @import './partials/colors';
 @import './partials/typography';
+@import './partials/mixins';
+
 
 @media (min-width: 1024px) {
 body {
@@ -11,15 +13,13 @@ background-color: white;
 
 nav {
 height: fit-content;
-    background-color: rgba(30, 17, 3, 0.866);
-
+    background-color: $dark-background;
 ul {
     margin-bottom: 10px;
     padding: 20px;
     
 li {
     display: inline-block;
-    color: white;
 a {
 text-decoration: none;
 color: white;
@@ -36,7 +36,6 @@ color: white;
 .content {
 float: left;
 width: 50%;
-background-color: white;
 margin-bottom: 40px;
 p {
 color: black; 
@@ -51,7 +50,6 @@ color: $font-color;
 
 }
 .content1 {
-background-color: white;
 float: right;
 width: 50%;
 margin-bottom: 40px;
@@ -63,26 +61,29 @@ header {
 .brand {
 float: left;
 width: 15%;
-color: white;
 text-decoration: none;
 text-transform: uppercase;
 font-size: 25px;
+color: white;
+font-family: $primary-font;
 
 }
 li{
 float: right;
 width: 8%; 
+color: white;
 }
 }
 
 .container {
     h1 {
 text-align: center;
-color: rgb(232, 156, 15);
-font-family: $primary-font;
+color: $primary-color;
+font-family: $secondary-font;
     }
     h3 {
 text-align: center;
+font-family: $third-font;
     }
     p{
 text-align: center;
@@ -90,13 +91,9 @@ text-align: center;
 }
 
 .order_cta {
-background-color: $primary-color;
-color: $font-color;
-text-decoration: underline;
+@include underline-button(5px, $primary-color);
 }
 
 .survey_cta {
-background-color: $primary-color;
-color: $font-color;
-text-decoration: underline;
+@include underline-button(25px, $secondary-color);
 }

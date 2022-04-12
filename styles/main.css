@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -361,7 +362,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  color: white;
 }
 
 nav ul li a {
@@ -377,7 +377,6 @@ nav ul li a {
 .container .content {
   float: left;
   width: 50%;
-  background-color: white;
   margin-bottom: 40px;
 }
 
@@ -390,12 +389,11 @@ nav ul li a {
 }
 
 .container .content button {
-  background-color: #794977;
-  color: white;
+  background-color: #eb7f1a;
+  color: black;
 }
 
 .container .content1 {
-  background-color: white;
   float: right;
   width: 50%;
   margin-bottom: 40px;
@@ -404,24 +402,28 @@ nav ul li a {
 header .brand {
   float: left;
   width: 15%;
-  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 25px;
+  color: white;
+  font-family: "Dosis", sans-serif;
 }
 
 header li {
   float: right;
   width: 8%;
+  color: white;
 }
 
 .container h1 {
   text-align: center;
-  color: #e89c0f;
+  color: #eb7f1a;
+  font-family: "Marck Script", cursive;
 }
 
 .container h3 {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container p {
@@ -429,12 +431,16 @@ header li {
 }
 
 .order_cta {
-  background-color: #794977;
-  color: white;
+  background-color: #eb7f1a;
+  color: black;
+  text-decoration: underline;
+  border-radius: 5px;
 }
 
 .survey_cta {
-  background-color: #d127ca;
-  color: #ffff;
+  background-color: #27a108;
+  color: black;
+  text-decoration: underline;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=main.css.map */
