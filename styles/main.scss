@@ -1,4 +1,83 @@
-// our css code will go hear 
+
+@import './vendor/normalize';
+
+@media (min-width: 1024px) {
+body{
+background-color: white
+}
+}
+
+@media (min-width: 768px){
+
+}
+
+nav{
+height: fit-content;
+    background-color: rgba(30, 17, 3, 0.866);
+
+ul{
+    margin-bottom: 10px;
+    padding: 20px;
+    
+li{
+    display: inline-block;
+    color: white;
+a{
+text-decoration: none;
+color: white;
+}
+}
+}
+}
 
 
+.container{
+    *{
+       box-sizing: border-box; 
+    }
+.content{
+float: left;
+width: 50%;
+background-color: white;
+margin-bottom: 40px;
+p{
+color: black; 
+}
+}
+.content1{
+background-color: white;
+float: right;
+width: 50%;
+margin-bottom: 40px;
+}
+}
 
+
+header{
+.brand{
+float: left;
+width: 15%;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 25px;
+
+}
+li{
+float: right;
+width: 8%; 
+}
+}
+
+.container{
+    h1{
+text-align: center;
+color: rgb(232, 156, 15);
+    }
+    h3{
+text-align: center;
+    }
+    p{
+text-align: center;
+    }   
+}
