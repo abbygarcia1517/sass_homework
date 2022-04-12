@@ -431,14 +431,14 @@ header li {
 }
 
 .order_cta {
-  background-color: #575757;
+  background-color: #DB8D33;
   color: black;
   text-decoration: underline;
   border-radius: 5px;
 }
 
 .survey_cta {
-  background-color: #DB8D33;
+  background-color: #12de12;
   color: black;
   text-decoration: underline;
   border-radius: 25px;
