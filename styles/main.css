@@ -385,6 +385,15 @@ nav ul li a {
   color: black;
 }
 
+.container .content a {
+  margin-bottom: 25px;
+}
+
+.container .content button {
+  background-color: #794977;
+  color: white;
+}
+
 .container .content1 {
   background-color: white;
   float: right;
@@ -417,5 +426,15 @@ header li {
 
 .container p {
   text-align: center;
+}
+
+.order_cta {
+  background-color: #794977;
+  color: white;
+}
+
+.survey_cta {
+  background-color: #d127ca;
+  color: #ffff;
 }
 /*# sourceMappingURL=main.css.map */
